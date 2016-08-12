@@ -1,0 +1,365 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/08/2016, 17:08:49
+    Author     : wemer
+*/
+
+*{
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #000\9;
+    width: 100%;
+    line-height: 1.42857143;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/*:::::::::::::::::::::::::::::::
+        Header Topo
+:::::::::::::::::::::::::::::::*/
+header#top{
+    background-color: #dcdcdc;
+    width: 100%;
+    max-width: 100%;
+    height: 872px;
+    background-image: url(../img/dryWashCarHome.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0; 
+    left: 0;
+}
+.header-top {
+    padding: 3em 0;
+}
+a.linkLogo {
+    text-decoration: none;
+}
+.logo {
+    float: left;
+}
+h1.logo {
+    background-image: url('../img/dryecow2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 191px;
+    height: 130px;
+    color: transparent;
+}
+small.subTitle {
+    color: white;
+    font-weight: 700;
+}
+.social-icons {
+    float: right;
+}
+i.facebook {
+    width: 38px;
+    height: 38px;
+    background: url('../img/img-sprite.png') no-repeat -544px -3px;
+    display: inline-block;
+    margin-right: 6px;
+}
+i.twitter {
+    width: 38px;
+    height: 38px;
+    background: url('../img/img-sprite.png') no-repeat -582px -3px;
+    display: inline-block;
+}
+.header-info {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+.header-info h2 {
+    color: blueviolet;
+    font-size: 2.45em;
+    font-weight: 700;
+    margin: 1.3em 0;
+    text-align: center;
+}
+.header-info p {
+    color: #212121;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.7em;
+    width: 100%;
+    margin: 3em 0;
+    text-align: center;
+}
+.mobile-in-hand {
+    position: relative;
+}
+.btnArrow{
+    color: yellow;
+}
+/*
+ * Animation for webkit
+*/
+#animated-example {
+    margin:0 auto;
+    width:50px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    text-align: center;
+    padding: 00px;
+}
+
+
+.animated { 
+    -webkit-animation-name: bounceIn;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 10;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
+
+    animation-name: bounceIn;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-30px);} 
+    60% {-webkit-transform: translateY(-15px);} 
+} 
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+} 
+
+/*
+ * Adding the animation to our element
+*/
+.bounce { 
+    -webkit-animation-name: bounce; 
+    animation-name: bounce; 
+}
+
+/*:::::::::::::::::::::::::::::::
+        Services Parameter
+:::::::::::::::::::::::::::::::*/
+
+.services{
+    background-color: #cbc7bd;
+    width: 100%;
+    height: auto;
+    padding: 5em 0;
+}
+.services-section-head {
+    margin-bottom: 3em;
+}
+.services-section-head h3 {
+    color: #222222;
+    font-size: 2.7em;
+    font-weight: 600;
+    margin-bottom: 0.7em;
+}
+p.textService{
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    color: darkolivegreen;
+}
+strong.titleTextService{
+    font-size: 1.4em;
+    font-stretch: semi-condensed;
+    text-transform: uppercase;
+    text-align: center !important;
+    color: #222222;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+.box-services-sofa{
+    background-color: #255625;
+    width: 100%;
+    height: auto;
+}
+.dividerBox{
+    border-bottom: 2px solid #dcdcdc;
+    width: 30%;
+}
+
+/*:::::::::::::::::::::::::::::::
+        Produto Parameter
+:::::::::::::::::::::::::::::::*/
+
+.product{
+    background-image: url(../img/dryWashHome.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative; 	
+    width: 100%;
+    height: 750px;
+}
+.viewTextProduct{
+/*    padding: 5em;*/
+    background-color: #333;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+article.viewTextProductP{
+    color: whitesmoke;
+/*    font-size: 1.5em;*/
+    line-height: 2em;
+    text-align: justify;
+    padding: 5rem;
+}
+
+/*:::::::::::::::::::::::::::::::
+        empreender Parameter
+:::::::::::::::::::::::::::::::*/
+.empreender{
+    background-color: #212121;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.titleEmprenderBG{
+    background-color: #026890;
+    padding: 1rem;
+    font-size: 1.3em;
+    color: #fff9e5;
+    font-weight: 600;
+}
+h2.titleEmprender {
+    color: #cbc7bd;
+    font-size: 2.7em;
+    font-weight: 600;
+    margin-bottom: 0.7em;
+}
+.empreenderPicture{
+    text-align: center;
+
+}
+
+/*:::::::::::::::::::::::::::::::
+        quem somos Parameter
+:::::::::::::::::::::::::::::::*/
+.about{
+    background-image: url(../img/abountBG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative; 	
+    width: 100%;
+    height: 750px;
+}
+.bgAbount{
+    background-color: #fff9e5;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    opacity: 0.8;
+}
+.titleAbount h2{
+    font-size: 2em;
+    font-weight: 700;
+    color: black;
+    padding: 1rem;
+}
+.textAbount{
+    font-size: 2em;
+    font-weight: 600;
+    text-height: text-size;
+    text-orientation: upright;
+}
+
+/*:::::::::::::::::::::::::::::::
+        contact Parameter
+:::::::::::::::::::::::::::::::*/
+.contact{
+    background-color: #0081c2;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+.contact-head {
+    margin-bottom: 4em;
+}
+.titleContatact h3{
+    color: #fff9e5;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact-head span {
+    height: 4px;
+    width: 23%;
+    background: #fff;
+    display: inline-block;
+}
+.end{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+.end a{
+    color: #fff9e5;
+}
+.end a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+small a{
+    color: #fff9e5 !important;
+}
+
+/*:::::::::::::::::::::::::::::::
+        footer Parameter
+:::::::::::::::::::::::::::::::*/
+footer{
+    background-color: #fff9e5;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+.copyright {
+    padding: 0;
+    text-align: center;
+}
+.copyright {
+    margin-top: 1em;
+}

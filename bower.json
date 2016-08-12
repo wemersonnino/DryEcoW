@@ -1,0 +1,36 @@
+{
+  "name": "DryEcoW",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public_html/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "jquery-ui": "jqueryui#^1.12.0",
+    "angular": "^1.5.8",
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "devDependencies": {},
+  "authors": [
+    "wemerson <wemersonnino@gmail.com>"
+  ],
+  "description": "Lavagem de Carros e outros a seco",
+  "keywords": [
+    "Lavagem",
+    "a",
+    "seco",
+    "de",
+    "carros"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.dryecow.com.br"
+}

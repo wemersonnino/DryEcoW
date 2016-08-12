@@ -1,0 +1,19 @@
+{
+	"name": "DryEcoW",
+	"version": "0.0.1",
+	"description": "Lavagem de Carros a Seco",
+	"homepage": "http://dryecow.com.br/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wemersonnino/DryEcoW"
+	},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+	},
+	"devDependencies": {
+		"grunt-cli": "0.1.6",
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.1.1"
+	}
+}
