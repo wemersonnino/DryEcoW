@@ -5,7 +5,8 @@ and open the template in the editor.
 */
 /* 
     Created on : 11/08/2016, 17:08:49
-    Author     : wemer
+    Author: Wemerson
+    Author URL: https://twitter.com/WemersonNino
 */
 
 *{
@@ -43,7 +44,7 @@ body a {
         Header Topo
 :::::::::::::::::::::::::::::::*/
 header#top{
-    background-color: #dcdcdc;
+    background-color: #013e6a;
     width: 100%;
     max-width: 100%;
     height: 872px;
@@ -73,9 +74,10 @@ h1.logo {
     height: 130px;
     color: transparent;
 }
-small.subTitle {
+p.subTitle {
     color: white;
     font-weight: 700;
+    white-space: pre;
 }
 .social-icons {
     float: right;
@@ -95,21 +97,21 @@ i.twitter {
 }
 .header-info {
     width: 100%;
-    background-color: aquamarine;
+    background-color: #1aa0ff;
     padding: 1rem;
     margin: 1rem;
     border-radius: 30px;
     opacity: 0.9;
 }
 .header-info h2 {
-    color: blueviolet;
+    color: #013e6a;
     font-size: 2.45em;
     font-weight: 700;
     margin: 1.3em 0;
     text-align: center;
 }
 .header-info p {
-    color: #212121;
+    color: #fff;
     font-size: 1.3em;
     font-weight: 300;
     line-height: 1.7em;
@@ -175,7 +177,7 @@ i.twitter {
 :::::::::::::::::::::::::::::::*/
 
 .services{
-    background-color: #cbc7bd;
+    background-color: #9ad0f5;
     width: 100%;
     height: auto;
     padding: 5em 0;
@@ -184,30 +186,34 @@ i.twitter {
     margin-bottom: 3em;
 }
 .services-section-head h3 {
-    color: #222222;
+    color: #fff;
     font-size: 2.7em;
     font-weight: 600;
     margin-bottom: 0.7em;
+}
+.services-section-head small{
+    color: #f3fafe;
+    font-size: 1.3em;
 }
 p.textService{
     font-size: 1.2em;
     font-weight: 500;
     font-style: normal;
     text-align: justify;
-    color: darkolivegreen;
+    color: #02101b;
 }
 strong.titleTextService{
     font-size: 1.4em;
     font-stretch: semi-condensed;
     text-transform: uppercase;
     text-align: center !important;
-    color: #222222;
+    color: #f3fafe;
     margin: 1rem;
     padding: 1rem;
 
 }
 .box-services-sofa{
-    background-color: #255625;
+    background-color: #567d98;
     width: 100%;
     height: auto;
 }
@@ -222,6 +228,7 @@ strong.titleTextService{
 
 .product{
     background-image: url(../img/dryWashHome.jpg);
+    background-color: #c1d1dd;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,15 +239,19 @@ strong.titleTextService{
     height: 750px;
 }
 .viewTextProduct{
-/*    padding: 5em;*/
+    /*    padding: 5em;*/
     background-color: #333;
     width: 100%;
     height: auto;
     opacity: 0.8;
 }
+.titleProduto{
+    margin: 1rem;
+    padding: 1rem;
+}
 article.viewTextProductP{
-    color: whitesmoke;
-/*    font-size: 1.5em;*/
+    color: #f3fafe;
+    /*    font-size: 1.5em;*/
     line-height: 2em;
     text-align: justify;
     padding: 5rem;
@@ -250,13 +261,13 @@ article.viewTextProductP{
         empreender Parameter
 :::::::::::::::::::::::::::::::*/
 .empreender{
-    background-color: #212121;
+    background-color: #02101b;
     width: 100%;
     height: auto;
     margin: 0;
 }
 .titleEmprenderBG{
-    background-color: #026890;
+    background-color: #041c2d;
     padding: 1rem;
     font-size: 1.3em;
     color: #fff9e5;
@@ -271,6 +282,10 @@ h2.titleEmprender {
 .empreenderPicture{
     text-align: center;
 
+}
+img.imgEmpreender{
+    width: 100%;
+    height: auto;
 }
 
 /*:::::::::::::::::::::::::::::::
@@ -293,6 +308,7 @@ h2.titleEmprender {
     height: auto;
     padding: 1.5rem;
     opacity: 0.8;
+    border-radius: 15px;
 }
 .titleAbount h2{
     font-size: 2em;
@@ -311,7 +327,7 @@ h2.titleEmprender {
         contact Parameter
 :::::::::::::::::::::::::::::::*/
 .contact{
-    background-color: #0081c2;
+    background-color: #011522;
     width: 100%;
     height: auto;
     padding: 2rem;
@@ -351,7 +367,7 @@ small a{
         footer Parameter
 :::::::::::::::::::::::::::::::*/
 footer{
-    background-color: #fff9e5;
+    background-color: #f3fafe;
     width: 100%;
     height: auto;
     padding: 2rem;
@@ -362,4 +378,100 @@ footer{
 }
 .copyright {
     margin-top: 1em;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::
+        responsive-design starts-here
+::::::::::::::::::::::::::::::::::::::::*/
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+    .header-info h2 {
+        font-size: 2.4em;
+        margin: 2em 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 320px) {
+
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::
+        responsive-design iPhone
+::::::::::::::::::::::::::::::::::::::::*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { 
+
+    .header-info {
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .header-info p {
+        font-size: medium;
+        font-weight: 300;
+        line-height: normal;
+        width: 100%;
+        margin: 0;
+    }
+    header#top {
+        margin-bottom: 0;
+        height: auto;
+        background-color: #013e6a;
+        background-image: none;
+
+    }
+    #animated-example {
+        margin-bottom: 3rem;
+    }
+    .social-icons {
+        display: none;
+    }
+    h1.logo {
+        width: 262px;
+        height: 166px;
+    }
+    p.subTitle {
+        white-space: pre;
+        margin-left: 74.33333%;
+    }
+
+    .product {
+        background-image: none;
+        background-color: #c1d1dd;
+        height: auto;
+    }
+    article.viewTextProductP {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 2rem;
+    }
+    .about {
+        background-image: none;
+        background-color: #042944;
+        height: auto;
+    }
 }
